@@ -1,0 +1,8 @@
+# Introduction
+Kubernetes is a fault-tolerant, extensible, scalable platform for managing containerized and cloud native applications. It is the most widely used container orchestration platform in existence.  
+
+Initially created by Google engineers in 2014, it became the Cloud Native Computing Foundation’s first hosted project in March 2016. It is the second largest open source project in the world after Linux and is the primary container orchestration tool for 71% of Fortune 100 companies.  Looking ahead, Kubernetes adoption shows no signs of slowing down – according to Gartner’s “The CTO’s Guide to Containers and Kubernetes” by 2027, more than 90% of global organizations will be running containerized applications in production.
+
+In this project journey report, we guide you through the remarkable growth journey Kubernetes has experienced under CNCF. We can’t attribute every data point to specific inputs, but we can document and explore the correlations in search of successful decisions and actions. This report is part of a series of project journey reports published by the CNCF.
+
+NOTE: These statistics were collected with the DevStats tool, which CNCF built in collaboration with CNCF project communities. When we refer to “Contributor,” we mean somebody who made a review, commented, committed, or created a PR or issue.

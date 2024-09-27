@@ -1,0 +1,10 @@
+# Introduction
+Harbor is a self-hosted cloud native registry that stores, scans, and signs content such as container images as well as OCI artifacts, including Helm charts. It extends the open source CNCF Distribution project and adds useful functionality, such as user management, security, activity auditing, and role-based access control (RBAC). Harbor supports image replication between registries, enabling hybrid-cloud and multi-cloud interoperability.
+
+One feature Harbor users benefit from is the registry’s proximity to the build-and-run environment, which improves image-transfer efficiency. Also, its scanning capabilities help ensure that images are free from vulnerabilities early in the development and deployment processes. Since Harbor is self-hosted, users can run the registry in their private, on-premises environment rather than in a public cloud. This may be desirable for organizations with stringent privacy or security standards.
+
+Harbor was created at VMware China in 2014 and initially open sourced in 2016. It is the first open source registry compliant with the specifications of OCI (Open Container Initiative) — a Linux Foundation project focused on creating open industry standards around container formats and runtimes.
+
+In this project journey report, we guide you through the remarkable growth journey Harbor has experienced under CNCF. We can’t attribute every data point to specific inputs, but we can document and explore the correlations in search of successful decisions and actions. This report is part of a series of project journey reports published by the CNCF.
+
+NOTE: These statistics were collected with the DevStats tool, which CNCF built in collaboration with CNCF project communities. When we refer to “Contributor,” we mean somebody who made a review, commented, committed, or created a PR or issue.

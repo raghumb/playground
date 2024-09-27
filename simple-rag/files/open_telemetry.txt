@@ -1,0 +1,11 @@
+#  Introduction
+OpenTelemetry is a framework for collecting and delivering telemetry data for applications, services, and infrastructure. It provides vendor-neutral tools, APIs, and SDKs for ingesting, transforming, and sending data to an observability back-end, either open source or commercial.
+
+Formed through the merger of OpenTracing and OpenCensus in 2019, OpenTelemetry addresses the challenges of debugging distributed, microservices-based architectures. Instrumentation and use of metrics, logging, and tracing software can become complicated in modern computing environments due to a lack of standards. OpenTelemetry solves these challenges by exporting data to open source or commercial observability back-ends through a standardized protocol. Its pluggable architecture allows other technology protocols and formats to be easily added.
+
+OpenTelemetry entered the CNCF sandbox in 2019 and reached the incubation stage in August 2021.
+
+This report assesses the state of the OpenTelemetry project and how CNCF has impacted its progress and growth. Alas we don’t have access to a multiverse to play out alternative scenarios, so it is impossible to sort out causation. However, we can document correlations. This report is part of a series of project journey reports published by CNCF.
+
+NOTE: These statistics were collected with the DevStats tool, which CNCF built in collaboration with CNCF project communities. When we refer to “Contributor,” we mean somebody who made a review, commented, committed, created a PR or issue.
+

@@ -109,7 +109,7 @@ def predict_with_citation(query: str, vector_store, query_model, embedding_model
             RunnablePassthrough.assign(context=lambda input: format_docs_xml(input["context"]))
             | prompt
             | query_model
-            | StrOutputParser()
+            | XMLOutputParser()
         )
         response = chain.invoke({"context": docs, "question": query})
         print(response)
